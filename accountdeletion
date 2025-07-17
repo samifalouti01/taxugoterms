@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delete Account – TaxuGo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      padding: 2rem;
+      color: #333;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    h1 {
+      color: #c0392b;
+    }
+
+    ol {
+      background-color: #fff;
+      padding: 1rem 1.5rem;
+      border-left: 4px solid #c0392b;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+
+    li {
+      margin: 1rem 0;
+    }
+
+    .icon {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      background-color: #555;
+      mask: url('https://www.svgrepo.com/show/511274/menu.svg') no-repeat center;
+      -webkit-mask: url('https://www.svgrepo.com/show/511274/menu.svg') no-repeat center;
+      mask-size: cover;
+      -webkit-mask-size: cover;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    .note {
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 10px;
+      margin-top: 1.5rem;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>How to Delete Your TaxuGo Account</h1>
+
+  <ol>
+    <li>Open the <strong>TaxuGo</strong> app on your device.</li>
+    <li>Sign in using your credentials.</li>
+    <li>Tap the top-right menu 
+      <span class="icon" title="menu icon"></span>.
+    </li>
+    <li>Select <strong>Profile</strong> from the dropdown menu.</li>
+    <li>Scroll down to the section labeled <strong>Danger Zone</strong>.</li>
+    <li>Tap <strong>Delete Account</strong> and follow the confirmation steps.</li>
+  </ol>
+
+  <div class="note">
+    <strong>Note:</strong> Account deletion is permanent and cannot be undone.
+  </div>
+
+</body>
+</html>
